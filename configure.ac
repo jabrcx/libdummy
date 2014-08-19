@@ -8,7 +8,6 @@ AC_PROG_CC
 
 #if building a library
 AC_PROG_LIBTOOL
-AM_PROG_AR
 
 #AC_CHECK_HEADERS([...])
 #AC_CHECK_LIB([...])
