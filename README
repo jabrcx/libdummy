@@ -1,0 +1,6 @@
+This is a skel for a GNU toolchain packaged app.  For a real project, consider 
+removing or at least modifying all the .gitconfig buried in here.
+
+To clean the build products (actually, ALL untracked files), run:
+
+	$ git clean -fdx

@@ -1,0 +1,9 @@
+*
+!.gitignore
+!m4
+!configure.ac
+!Makefile.am
+!lib
+!lib/.gitignore
+!autogen.sh
+!README
