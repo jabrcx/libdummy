@@ -1,5 +1,18 @@
-This is a skel for a GNU toolchain packaged app.  For a real project, consider 
-removing or at least modifying all the .gitconfig buried in here.
+libdummy -- a dummy shared library, for dynamic link hacking
+
+This builds and installs a dummy shared library.  It can be used to satisfy
+dynamic link dependencies that are really only required in name only (e.g. code
+that links against a library but the use case doesn't involve any of the
+library's symbols).  Make symbolic links of such dependencies to libdummy.so.
+
+This is a standard autotools build:
+
+	$ ./autogen.sh
+	$ ./configure [--prefix=...]
+	$ make
+	$ make install
+
+All just to package up `gcc -shared -fPIC -o libdummy.so -xc /dev/null`.
 
 To clean the build products (actually, ALL untracked files), run:
 

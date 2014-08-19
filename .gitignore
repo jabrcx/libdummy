@@ -5,5 +5,7 @@
 !Makefile.am
 !lib
 !lib/.gitignore
+!src
+!src/.gitignore
 !autogen.sh
 !README

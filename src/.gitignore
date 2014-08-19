@@ -1,0 +1,5 @@
+*
+!.gitignore
+!Makefile.am
+!myprog.c
+!mylib.c

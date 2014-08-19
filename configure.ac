@@ -1,4 +1,4 @@
-AC_INIT([mypkg], [0.0.1], [john_brunelle@harvard.edu])
+AC_INIT([libdummy], [0.0.1], [john_brunelle@harvard.edu])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
 ##if using extra macros
@@ -8,6 +8,7 @@ AC_PROG_CC
 
 #if building a library
 AC_PROG_LIBTOOL
+AM_PROG_AR
 
 #AC_CHECK_HEADERS([...])
 #AC_CHECK_LIB([...])
